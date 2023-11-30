@@ -26,7 +26,7 @@ setnavpop(!navpopup);
       <div>
       <div className='Navbar h-[80px]  text-white fixed shadow-lg shadow-primary w-full z-50  bg-darkblack flex justify-around'>
          <div className='nav-logo'>
-            <img src='/images/Black-BG.png' alt='#' className='w-[80px] h-[80px]'/>
+            <img src='/webzee/public/image/Black-BG.png' alt='#' className='w-[80px] h-[80px]'/>
          </div>
          <div className='menu-bar flex items-center'>
             <ul className='menu-items md:flex  '>
@@ -48,7 +48,7 @@ setnavpop(!navpopup);
             </ul>
             <div className="menu-btn md:hidden">
                 <button onClick={togglenavbarPopup}>
-                  <img src='./webzee/images/menu-icon.png' alt='Menu' className='w-[70px] relative right-0 h-[50px]' />
+                  <img src='/webzee/public/images/menu-icon.png' alt='Menu' className='w-[70px] relative right-0 h-[50px]' />
                 </button>
               </div>
          </div>
