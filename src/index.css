@@ -1,3 +1,6 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +8,527 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100vw;
+  background-color: #000000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.max-width{
+  padding:0 100px ;
+}
+section{
+  padding: 100px 0px;
+  background-color:#000000;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+
+}
+.btn{
+  padding: 10px 12px;
+  background-color:rgb(172, 33, 253);
+ margin: 16px 0;
+ font-weight: 400;
+ border-radius: 20px;
+}
+.home{
+  background-image: url("../public/images/Home-page.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projects{
+  padding: 40px 0 100px 0;
+}
+.services{
+  padding-bottom: 0px;
+}
+.service-elements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.service-elements img{
+  width:80px;
+  height:80px;
+}
+.service-elements h1{
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  padding: 20px 0;
+}
+
+.projects-container,.projects-container img {
+  width:350px;
+  height:250px;
+  border-radius: 20px;
+  
+  
+}
+.projects-container{
+  margin-top:40px ;
+}
+.project-text{
+  position: absolute;
+  background-color: rgb(0, 0, 0,0.7);
+  color: white;
+  height: 80px;
+  width: 350px;
+  transform: translateY(-110px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+.project-text:hover{
+height: 246px;
+width: 332px;
+transform: translate(2px,-248px);
+font-size: 20px;
+font-weight: 500;
+transition: all ease 0.8s;
+border-radius: 20px;
+}
+.tech{
+  padding:20px 0 ;
+}
+.technology-known  li{
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0 0 40px 0;
+  display: flex;
+  align-items: center;
+}
+.technology-known  li img{
+  width: 20px;
+  height:20px;
+  margin: 0 10px;
+}
+.about{
+  padding: 100px 0 0 0;
+}
+.team-members{
+padding: 0px 0;
+margin: 0;
+min-height:70vh;
+}
+.blog{
+  padding: 150px 0 60px 0;
+}
+.contact{
+  padding: 150px 0;
+}
+
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+ 
+  background: rgba(0, 0, 0);
+  z-index: 1000; 
+
+}
+.navbar-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+  background: rgba(0, 0, 0);
+  z-index: 1000; 
+}
+.email-container-fields{
+  display: flex;
+  margin: 16px 0;
+  justify-content: center;
+
+}
+.email-container-fields label{
+  color:white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.email-container-fields input,textarea{
+  background-color: #000000;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 20px;
+  color: white;
+  padding: 5px 20px;
+  height: 40px;
+}
+
+@media (max-width:546px){
+  .section{
+    padding: 20px 0px !important;
+  }
+    .max-width{
+      padding: 0px 20px !important;
+    }
+    .home{
+    
+    min-height: 80vh !important;
+    
+   }
+    .home-content{
+      margin:0 10px !important;
+    }
+    .blog .blog-content{
+      height: 190vh !important;
+    }
+    .blog .blog-content-1{
+     
+     height:auto !important;
+      
+    } .blog .blog-content-2{
+      margin-top: 0px !important;
+     
+      height: auto !important;
+    }
+    .footer{
+    
+     
+      height:100vh !important;
+    }
+    .footer .social-media,.footer .Mail{
+      padding: 5px;
+      margin: 10px;
+      width: 100%;
+      height: 50px;
+    
+    }
+    .footer-text{
+      font-size: 12px;
+    }
+    .foot-head{
+      font-size: 16px !important;
+      font-weight: 400 !important;
+      padding: 5px 0 !important;
+    }
+    .footer-logo img{
+      width: 100px !important;
+    }
+}
+@media  (max-width:768px){
+.section{
+  padding: 30px 0px;
+}
+  .max-width{
+    padding: 0px 30px;
+  }
+.menu-items {
+display: none;
+}
+.services .service-content .top-content,.services .service-content .bottom-content{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  padding-right:30px;
+
+}
+.menu-btn{
+  display: block;
+}
+.home{
+ padding-bottom: 20px;
+ min-height: 90vh;
+ 
+}
+.t1{
+  font-size: 28px;
+}
+.t2{
+  font-size: 40px;
+}
+.t3{
+  font-size: 45px;
+}
+.t4{
+  font-size: 40px;}
+  .projects{
+    padding: 20px 0 30px 0;
+    margin-bottom: 0;
+  }
+ .projects-content{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  width: 100%;
+  padding: 0 30px;
+  
+}
+.projects-container,.projects-container img{
+width: 250px;  
+height:250px;
+}
+.project-text{
+  width: 250px; 
+}
+.project-text:hover{
+  height: 246px;
+  width: 246px;
+ 
+  }
+  .tech{
+    min-height: 120vh;
+    display: flex;
+  }
+  .tech .max-width{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .tech .left-content img{
+    width:100%;
+    height: 100%;
+  }
+  .tech .right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.technology-known{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding: 10px 0 0 20px;
+
+}
+  .technology-known  li{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 0 10px 0;
+  }
+  .technology-known .cont-1{
+    width: 100%;
+  }
+.technology-known .cont-2{
+  margin: 0;
+}
+.about .about-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.about .about-content .about-left-content ,.about .about-content .about-right-content{
+  width: 100%;
+}
+.about .about-content .about-right-content p{
+  font-size: 20px;
+}
+.team-members{
+  padding: 70px 0 20px 0;
+}
+.team-members .text-primary{
+  margin: 0px 0;
+}
+.team-members-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+}
+.team-members-details .member{
+  width: 100%;
+  height: 250px;
+padding: 10px;
+margin-top: 20px;
+overflow: hidden;
+
+  
+}
+.team-members-details .member div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-members-details .member img{
+  height:100px;
+  width:100px;
+}
+.blog .blog-content{
+    height: 170vh;
+  }
+  .blog .blog-content-1{
+    padding: 5px;
+    flex-direction: column;
+   height: 55vh;
+    text-align: justify;
+  } .blog .blog-content-2{
+    margin-top: 100px;
+    padding: 5px;
+    flex-direction: column-reverse;
+    height: 65vh;
+  }
+  .blog .blog-content-1 img ,.blog .blog-content-2 img{
+    width: auto;
+  }
+  .popup-container{
+    width: 100%;
+    position: fixed;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .popup-container .contact-navbar{
+    justify-content: space-evenly;
+  }
+.popup-container .contact-navbar .logo{
+    width: 80px;
+    height: 80px;
+  }
+  .popup-container .contact-navbar h1{
+    font-size: 20px;
+  }
+  .popup-container .contact-content{
+    flex-direction: column;
+  }
+  .popup-container .contact-content .contact-left-content{
+    width: 100%;
+  }
+  .popup-container .contact-content .contact-left-content div{
+    margin-left:10px ;
+    
+    padding: 5px;
+  }
+  .popup-container .contact-content .contact-left-content div .btn{
+  transform: translateY(-80px);
+  }
+  .popup-container .contact-content .contact-right-content{
+    display: none;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+   
+    height:100vh;
+  }
+  .footer .social-media,.footer .Mail{
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    height: 150px;
+  
+  }
+  .footer-text{
+    font-size: 14px;
+  }
+  .foot-head{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0;
+  }
+  .footer-logo img{
+    width: 200px !important;
+  }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+  .max-width{
+    padding: 0px 35px;
+  }
+  .tech{
+    min-height: 80vh;
+ 
+  }
+  .technology-known{
+    margin: 0;
+    padding: 5px;
+  }
+  .footer{
+   
+    justify-content:center;
+    align-items: center;
+   
+   
+  }
+  .footer .social-media,.footer .Mail{
+    padding: 15px;
+    margin: 0 10px 0 0;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+  
+  }
+  .footer .social-media{
+    margin-left: 30px;
+  }
+  .footer-text{
+    font-size: 14px;
+  }
+  .foot-head{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 15px 0;
+  }
+  .footer-logo img{
+    width: 150px !important;
+  }
+  .projects{
+    padding: 20px 0 30px 0;
+    margin-bottom: 0;
+  }
+ .projects-content{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  width: 100%;
+  padding: 0 30px;
+  
+}
+.projects-container,.projects-container img{
+width: 250px;  
+height:250px;
+}
+.project-text{
+  width: 250px; 
+}
+.project-text:hover{
+  height: 246px;
+  width: 246px;
+ 
+  }
+  .blog{
+    padding: 150px 0 20px 0;
+  }
+  .blog .blog-content{
+    padding: 10px 0;
+    height: 150vh;
+  }
+ 
+  .blog .blog-content-1{
+    padding: 5px;
+    flex-direction: column;
+    
+    text-align: justify;
+  } .blog .blog-content-2{
+    margin-top: 100px;
+    padding: 5px;
+    flex-direction: column-reverse;
+    height: 75vh;
+  }
+
 }
