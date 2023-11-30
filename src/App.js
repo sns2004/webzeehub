@@ -48,7 +48,7 @@ setnavpop(!navpopup);
             </ul>
             <div className="menu-btn md:hidden">
                 <button onClick={togglenavbarPopup}>
-                  <img src='./webzee/menu-icon.png' alt='Menu' className='w-[70px] relative right-0 h-[50px]' />
+                  <img src='/webzee/images/menu-icon.png' alt='Menu' className='w-[70px] relative right-0 h-[50px]' />
                 </button>
               </div>
          </div>
