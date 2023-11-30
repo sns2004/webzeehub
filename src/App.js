@@ -44,11 +44,11 @@ setnavpop(!navpopup);
                     )
 
                 })}
-                <li className="py-2 px-4"><button onClick={togglePopup}><h2 className=" text-base font-semibold">CONTACT US</h2></button> </li>
+                <li className="py-2 px-4"><button onClick={togglePopup}><h2 className=" text-base font-semibold">CONTACT</h2></button> </li>
             </ul>
             <div className="menu-btn md:hidden">
                 <button onClick={togglenavbarPopup}>
-                  <img src='/webzee/images/menu-icon.png' alt='Menu' className='w-[70px] relative right-0 h-[50px]' />
+                  <img src='./webzee/images/menu-icon.png' alt='Menu' className='w-[70px] relative right-0 h-[50px]' />
                 </button>
               </div>
          </div>
