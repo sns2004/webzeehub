@@ -23,12 +23,12 @@ const About=()=>{
           <div className="team-members-details h-[350px] w-full p-5 flex">
             <div className="member w-2/6 h-[250px] p-5 flex justify-center items-center text-start">
                 <div>
-              <img src="/images/shanjai.jpg" className=" w-[170px] h-[170px] rounded-full  border-[2px] border-primary" alt="#"/>
+              <img src="/webzee/images/shanjai.jpg" className=" w-[170px] h-[170px] rounded-full  border-[2px] border-primary" alt="#"/>
               <p className="py-4 px-5">WEB DEVELOPER</p></div>
             </div>
             <div className="member w-2/6 h-[250px] p-5 flex justify-center items-center text-start">
             <div>
-              <img src="/images/shanjai.jpg" className=" w-[170px] h-[170px] rounded-full  border-[2px] border-primary" alt="#"/>
+              <img src="/webzee/images/shanjai.jpg" className=" w-[170px] h-[170px] rounded-full  border-[2px] border-primary" alt="#"/>
               <p className="py-4">GRAPHICAL DESIGNER</p></div>
             </div>
             <div className="member w-2/6 h-[250px] p-5 flex justify-center items-center text-start">

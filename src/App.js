@@ -119,7 +119,7 @@ setnavpop(!navpopup);
            <div className='contact-navbar flex justify-around my-2 items-center w-full'>
             <img src='/webzee/images/Black-BG.png' className='w-[120px] h-[120px]' alt='#'/>
           
-           <button onClick={togglenavbarPopup}><img src='/images/close.png' alt='#' className='w-[20px] h-[20px]' /></button>
+           <button onClick={togglenavbarPopup}><img src='/webzee/images/close.png' alt='#' className='w-[20px] h-[20px]' /></button>
           
 
            </div>
