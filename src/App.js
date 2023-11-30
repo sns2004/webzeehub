@@ -5,6 +5,8 @@ import Home from './pages/home';
 import Projects from './pages/projects';
 import About from './pages/about';
 import Blog from './pages/blog';
+import emailjs from '@emailjs/browser';
+
 
 import { SidebarData } from './components/sliderdata';
 function App() {
@@ -18,6 +20,19 @@ function App() {
   const togglenavbarPopup=()=>{
 setnavpop(!navpopup);
   }
+  const sendEmail=(e)=> {
+    e.preventDefault();
+
+emailjs.sendForm('service_eujzkah', 'template_rigg5mr', e.target, 'VKy5a0cR_MNzS_AtU')
+ 
+    .then((result) => {
+       alert("Message send sucessfully");
+    }, (error) => {
+        alert(error.text);
+    });
+    e.target.reset()
+
+};
   return (
  <>
 
@@ -77,21 +92,23 @@ setnavpop(!navpopup);
               <div className='ms-[100px]'>
              <h1 className='text-white mb-2 font-semibold text-2xl'>Let's Connect</h1>
              <div className='email-container w-full h-[330px] p-5 rounded-lg bg-black'>
+             <form onSubmit={sendEmail}>
                   <div className='email-container-fields'>
                     <label>Email</label>
                     <input type='email' name='email'/>
                   </div>
                   <div className='email-container-fields'>
                     <label>Phone </label>
-                    <input type='tel' name='number'/>
+                    <input type='tel' name='phone'/>
                   </div>
                   <div className='email-container-fields'>
                     <label>Message</label>
-                  <textarea className='h-[150px]'></textarea>
+                  <textarea className='h-[150px]' name='message'></textarea>
                   </div>
                   <div className='email-container-btn'>
                    <button className='btn -translate-y-16'><img src='/webzee/images/contact_us_send.png' alt='#' className='w-[30px] h-[30px] rounded-xl'/></button>
                   </div>
+                  </form>
              </div>
              </div>
             </div>
