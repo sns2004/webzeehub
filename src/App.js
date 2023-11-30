@@ -26,7 +26,7 @@ setnavpop(!navpopup);
       <div>
       <div className='Navbar h-[80px]  text-white fixed shadow-lg shadow-primary w-full z-50  bg-darkblack flex justify-around'>
          <div className='nav-logo'>
-            <img src='/webzee/public/image/Black-BG.png' alt='#' className='w-[80px] h-[80px]'/>
+            <img src='/webzee/images/Black-BG.png' alt='#' className='w-[80px] h-[80px]'/>
          </div>
          <div className='menu-bar flex items-center'>
             <ul className='menu-items md:flex  '>
