@@ -26,29 +26,29 @@ const Home=()=>{
                     <h1>Web Design</h1>
                 </div>
                 <div className="service-elements">
-                    <img src="./webzee/images/Graphic-design.png" alt="#" className=""/>
+                    <img src="/webzee/images/Graphic-design.png" alt="#" className=""/>
                     <h1>Graphic Design</h1>
                 </div>
                 <div className="service-elements">
-                    <img src="./webzee/images/Content-writing.png" alt="#" className=""/>
+                    <img src="/webzee/images/Content-writing.png" alt="#" className=""/>
                     <h1>Content Writing</h1>
                 </div>
                 <div className="service-elements">
-                    <img src="./webzee/images/Web-Development.png" alt="#" className=""/>
+                    <img src="/webzee/images/Web-Development.png" alt="#" className=""/>
                     <h1>Web Development</h1>
                 </div>
               </div>
               <div className="bottom-content flex my-4  mx-3 w-full justify-around">
               <div className="service-elements">
-                    <img src="./webzee/images/Digital-marketing.png" alt="#" className=""/>
+                    <img src="/webzee/images/Digital-marketing.png" alt="#" className=""/>
                     <h1>Digital Marketing</h1>
                 </div>
                 <div className="service-elements">
-                    <img src="./webzee/images/Web-Hosting.png" alt="#" className=""/>
+                    <img src="/webzee/images/Web-Hosting.png" alt="#" className=""/>
                     <h1>Web Hosting</h1>
                 </div>
                 <div className="service-elements">
-                    <img src="./webzee/images/Search-engine-optimiztion.png" alt="#" className=""/>
+                    <img src="/webzee/images/Search-engine-optimiztion.png" alt="#" className=""/>
                     <h1>Search Engine Optimization</h1>
                 </div>
               </div>
@@ -60,15 +60,15 @@ const Home=()=>{
         <h1 className="text-primary text-[28px] my-4 font-semibold">PROJECTS</h1>
         <div className="projects-content flex">
             <div className="projects-container mx-3  ">
-                <img src="./webzee/images/project-list-1.png" className="border-[3px] border-primary"  alt="#"/>
+                <img src="/webzee/images/project-list-1.png" className="border-[3px] border-primary"  alt="#"/>
                 <p className="project-text ">ONLINE SHOPPING WEBSITE</p>
             </div>
             <div className="projects-container mx-3 ">
-                <img src="./webzee/images/project-list-2.jpeg" className="border-[3px] border-primary" alt="#"/>
+                <img src="/webzee/images/project-list-2.jpeg" className="border-[3px] border-primary" alt="#"/>
                 <p className="project-text ">FASHION WEBSITE</p>
             </div>
             <div className="projects-container mx-3 ">
-                <img src="./webzee/images/project-list-3.jpg" className="border-[3px] border-primary"  alt="#"/>
+                <img src="/webzee/images/project-list-3.jpg" className="border-[3px] border-primary"  alt="#"/>
                 <p className="project-text ">SHOW WEBSITE</p>
             </div>
            
@@ -79,21 +79,21 @@ const Home=()=>{
      <section className=" tech ">
         <div className="max-width w-full flex">
             <div className="left-content  w-1/2">
-                <img src="./webzee/images/Tech-Known.png" alt="#"/>
+                <img src="/webzee/images/Tech-Known.png" alt="#"/>
             </div>
             <div className="right-content text-center  w-1/2">
             <h1 className="text-primary text-[28px] my-4  text-center font-semibold">TECHNOLOGIES  KNOWN</h1>
             <ul className="technology-known text-white text-start px-10 flex relative top-10 w-full mt-[40px] h-[200px]">
               <div className="cont-1 w-1/2 me-5">
-                    <li><img src="./webzee/images/Vector.png" alt="#" />React Js</li>
-                    <li><img src="./webzee/images/Vector.png" alt="#" />Node Js</li>
-                    <li><img src="./webzee/images/Vector.png" alt="#" />Express Js</li>
-                    <li><img src="./webzee/images/Vector.png" alt="#" />Mongo DB</li>
+                    <li><img src="/webzee/images/Vector.png" alt="#" />React Js</li>
+                    <li><img src="/webzee/images/Vector.png" alt="#" />Node Js</li>
+                    <li><img src="/webzee/images/Vector.png" alt="#" />Express Js</li>
+                    <li><img src="/webzee/images/Vector.png" alt="#" />Mongo DB</li>
                     </div>
                     <div className="cont-2 w-1/2 ms-5">
-                    <li><img src="./webzee/images/Vector.png" alt="#" />Tailwindcss</li>
-                    <li><img src="./webzee/images/Vector.png" alt="#" />Adobe</li>
-                    <li><img src="./webzee/images/Vector.png" alt="#" />Canva</li></div>
+                    <li><img src="/webzee/images/Vector.png" alt="#" />Tailwindcss</li>
+                    <li><img src="/webzee/images/Vector.png" alt="#" />Adobe</li>
+                    <li><img src="/webzee/images/Vector.png" alt="#" />Canva</li></div>
                 </ul>
      
             </div>

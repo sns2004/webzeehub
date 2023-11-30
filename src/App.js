@@ -48,7 +48,7 @@ setnavpop(!navpopup);
             </ul>
             <div className="menu-btn md:hidden">
                 <button onClick={togglenavbarPopup}>
-                  <img src='./webzee/images/menu-icon.png' alt='Menu' className='w-[70px] relative right-0 h-[50px]' />
+                  <img src='/webzee/images/menu-icon.png' alt='Menu' className='w-[70px] relative right-0 h-[50px]' />
                 </button>
               </div>
          </div>
@@ -68,9 +68,9 @@ setnavpop(!navpopup);
         <div className='popup-container border-[2px] border-primary mx-7 min-h-screen'>
           <div className='popup-content'>
            <div className='contact-navbar flex justify-around my-2 items-center w-full'>
-            <img src='./webzee/images/Black-BG.png' className='w-[120px] h-[120px] logo' alt='#'/>
+            <img src='/webzee/images/Black-BG.png' className='w-[120px] h-[120px] logo' alt='#'/>
             <h1 className="text-primary text-[28px]  font-semibold">CONTACT US</h1>
-           <button onClick={togglePopup}><img src='./webzee/images/close.png' alt='#' className='w-[20px] h-[20px]' /></button>
+           <button onClick={togglePopup}><img src='/webzee/images/close.png' alt='#' className='w-[20px] h-[20px]' /></button>
            </div>
            <div className='contact-content w-full flex'>
             <div className='contact-left-content w-1/2 p-3'>
@@ -90,7 +90,7 @@ setnavpop(!navpopup);
                   <textarea className='h-[150px]'></textarea>
                   </div>
                   <div className='email-container-btn'>
-                   <button className='btn -translate-y-16'><img src='./webzee/images/contact_us_send.png' alt='#' className='w-[30px] h-[30px] rounded-xl'/></button>
+                   <button className='btn -translate-y-16'><img src='/webzee/images/contact_us_send.png' alt='#' className='w-[30px] h-[30px] rounded-xl'/></button>
                   </div>
              </div>
              </div>
@@ -101,10 +101,10 @@ setnavpop(!navpopup);
           <div className='text-center'>
           <h3 className="text-white text-xl  font-medium py-4">Contact us through Social Media</h3>
           
-              <p className="flex text-white text-xl my-6 font-medium"><a href="https://instagram.com/webzee_business?igshid=OGQ5ZDc2ODk2ZA==" className="flex" target='_blank'><img src="./webzee/images/insta.png" alt="#" className="w-[30px] h-[30px] me-2"/>Webzee_business</a></p>
-              <p className="flex text-white text-xl mb-6 font-medium my-2"><a href="https://x.com/WebZee_Business?t=bBhpc087h7AvxgVgsgm9lw&s=09" className="flex" target='_blank'><img src="./webzee/images/x.png" alt="#" className="w-[30px] h-[30px] me-2 "/>@Webzee_Business</a></p>
-              <p className="flex text-white text-xl mb-6 font-medium"><img src="./webzee/images/phone.png" alt="#" className="w-[30px] h-[30px] me-2"/>+91 9443463184</p>
-              <p className="flex text-white text-xl mb-6 font-medium my-2"><img src="./webzee/images/Mail.png" alt="#" className="w-[30px] h-[30px] me-2 "/>webzee.business@gmail.com</p>
+              <p className="flex text-white text-xl my-6 font-medium"><a href="https://instagram.com/webzee_business?igshid=OGQ5ZDc2ODk2ZA==" className="flex" target='_blank'><img src="/webzee/images/insta.png" alt="#" className="w-[30px] h-[30px] me-2"/>Webzee_business</a></p>
+              <p className="flex text-white text-xl mb-6 font-medium my-2"><a href="https://x.com/WebZee_Business?t=bBhpc087h7AvxgVgsgm9lw&s=09" className="flex" target='_blank'><img src="/webzee/images/x.png" alt="#" className="w-[30px] h-[30px] me-2 "/>@Webzee_Business</a></p>
+              <p className="flex text-white text-xl mb-6 font-medium"><img src="/webzee/images/phone.png" alt="#" className="w-[30px] h-[30px] me-2"/>+91 9443463184</p>
+              <p className="flex text-white text-xl mb-6 font-medium my-2"><img src="/webzee/images/Mail.png" alt="#" className="w-[30px] h-[30px] me-2 "/>webzee.business@gmail.com</p>
           </div>
       </div>
             </div>
@@ -117,7 +117,7 @@ setnavpop(!navpopup);
                
           <div className='navbar-content text-white'>
            <div className='contact-navbar flex justify-around my-2 items-center w-full'>
-            <img src='./webzee/images/Black-BG.png' className='w-[120px] h-[120px]' alt='#'/>
+            <img src='/webzee/images/Black-BG.png' className='w-[120px] h-[120px]' alt='#'/>
           
            <button onClick={togglenavbarPopup}><img src='/images/close.png' alt='#' className='w-[20px] h-[20px]' /></button>
           
