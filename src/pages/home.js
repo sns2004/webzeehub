@@ -22,7 +22,7 @@ const Home=()=>{
             <div className="service-content  mt-8">
               <div className="top-content flex   mx-3 w-full justify-around ">
                 <div className="service-elements">
-                    <img src="/images/Web-design.png" alt="#" className=""/>
+                    <img src="/webzee/images/Web-design.png" alt="#" className=""/>
                     <h1>Web Design</h1>
                 </div>
                 <div className="service-elements">
