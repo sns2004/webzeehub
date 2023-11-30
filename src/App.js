@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router,NavLink, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router,NavLink, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Home from './pages/home';
 import Projects from './pages/projects';
